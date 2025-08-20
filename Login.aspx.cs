@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Sistema_de_Gestion_Empresarial
+{
+    public partial class WebForm1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnIngresar_Click(object sender, EventArgs e)
+        {
+            // Lógica para manejar el evento del botón
+        }
+        /*protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            // Lógica para manejar el evento del botón Cancelar
+            txtUsuario.Text = string.Empty;
+            txtContrasena.Text = string.Empty;
+        }*/
+    }
+}
